@@ -1,4 +1,7 @@
-function searchForProdct(str){
+function searchForProdct(prodectName){
     if(str.trim().length === 0) console.log('profduct name is empty');
-    console.log(`${str} is searched`);
+    console.log(`${prodectName} is searched`);
 }
+searchForProdct('apple');
+searchForProdct('  ');
+searchForProdct('orange');
